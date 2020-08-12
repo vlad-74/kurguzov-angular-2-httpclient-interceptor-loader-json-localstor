@@ -1,0 +1,13 @@
+<loader [parent]=""></loader>
+<mat-toolbar color="primary" class="mat-elevation-z3">
+	<nav>
+    <span class="title">Работа с данными</span>
+    <a routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" mat-button routerLink="main">HTTPCLIENT</a>
+    <a routerLinkActive="active" mat-button routerLink="fake">fake data</a>
+    <a routerLinkActive="active" mat-button routerLink="local">localstorage</a>
+	</nav>
+</mat-toolbar>
+<div class="app-content">
+  <router-outlet></router-outlet>
+</div>
+<br>
